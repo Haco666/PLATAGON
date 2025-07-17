@@ -363,7 +363,7 @@ GameObject:
   m_Component:
   - component: {fileID: 90967697}
   m_Layer: 0
-  m_Name: a
+  m_Name: 2a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -709,7 +709,7 @@ GameObject:
   m_Component:
   - component: {fileID: 163008502}
   m_Layer: 0
-  m_Name: a
+  m_Name: 1a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2410,7 +2410,7 @@ GameObject:
   m_Component:
   - component: {fileID: 633351121}
   m_Layer: 0
-  m_Name: b
+  m_Name: 1b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2924,7 +2924,7 @@ GameObject:
   m_Component:
   - component: {fileID: 837347714}
   m_Layer: 0
-  m_Name: b
+  m_Name: 2b
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3132,7 +3132,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.0035722256, y: 0.0640675}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3143,7 +3143,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.3, y: 0.5}
+  m_Size: {x: 0.2749949, y: 0.44243214}
   m_EdgeRadius: 0
 --- !u!111 &881849122
 Animation:
@@ -7468,7 +7468,7 @@ Transform:
   m_GameObject: {fileID: 1873330288}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -53.59999, y: -51.1, z: 0}
+  m_LocalPosition: {x: -53.59999, y: -50.2, z: 0}
   m_LocalScale: {x: 29.389719, y: 21.258934, z: 0.25309107}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8201,10 +8201,10 @@ GameObject:
   - component: {fileID: 2110603135}
   - component: {fileID: 2110603139}
   - component: {fileID: 2110603138}
-  - component: {fileID: 2110603137}
-  - component: {fileID: 2110603136}
-  - component: {fileID: 2110603141}
   - component: {fileID: 2110603140}
+  - component: {fileID: 2110603141}
+  - component: {fileID: 2110603136}
+  - component: {fileID: 2110603137}
   m_Layer: 0
   m_Name: enemy 1
   m_TagString: Untagged
@@ -8340,7 +8340,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1e86708f6739f9d45a11a727fa710193, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b8c1a11ae347f5d4da11bd2f356009ed, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8401,7 +8401,7 @@ Animation:
   m_GameObject: {fileID: 2110603134}
   m_Enabled: 1
   serializedVersion: 3
-  m_Animation: {fileID: 7400000, guid: ecab362c6ecdb854a82986bf0e95f4f2, type: 2}
+  m_Animation: {fileID: 7400000, guid: 8a6728eb38954a143aefbdc0aa2d2a6c, type: 2}
   m_Animations: []
   m_WrapMode: 0
   m_PlayAutomatically: 1
