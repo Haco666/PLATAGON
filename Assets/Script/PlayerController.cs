@@ -4,22 +4,20 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed; // declaramos la velocidad
-    public float speedJump; // velocidad salto
     private Rigidbody2D playerb;
     public float inputMovimiento;
     public bool IsGrounded;
     public GroundedController gc;
-    public PlayerStars PlayerStars;
+    public PlayerStars playerStats;
     public float Life;
-    // Start is called before the first frame update
-
+    public float speed; // declaramos la velocidad
+    public float speedJump; // velocidad salto
     void Start()
     {
         playerb = GetComponent<Rigidbody2D>();
-        Life = PlayerStars.MaxLife;
-        speed = PlayerStars.Speed;
-        speedJump = PlayerStars.SpeedJump;
+        Life = playerStats.MaxLife;
+        speed = playerStats.Speed;
+        speedJump = playerStats.SpeedJump;
     }
 
     // Update is called once per frame
@@ -40,7 +38,7 @@ public class PlayerController : MonoBehaviour
     {
         inputMovimiento = Input.GetAxis("Horizontal");
         playerb.velocity = new Vector2(inputMovimiento * speed, playerb.velocity.y);
-        //aqui se aÃ±aden animaciones anim.SetBool("Walking", true);
+        //aqui se añaden animaciones anim.SetBool("Walking", true);
     }
 
     private void FixedUpdate()
@@ -54,18 +52,38 @@ public class PlayerController : MonoBehaviour
         {
             playerb.AddForce(transform.right * -speed);
         }
-        else if (Input.GetKey("w"))
+        /*   else if (Input.GetKey("w"))
         {
             playerb.AddForce(transform.up * speed);
         }
         else if (Input.GetKey("s"))
         {
             playerb.AddForce(transform.up * -speed);
-        }
+        }*/
         if (Input.GetKey("space") && gc.IsGrounded())
         {
             playerb.AddForce(transform.up * speedJump);
             Debug.Log("salto?");
         }
+    }
+    public void Shoot()
+    {
+        GameObject bullet = BulletPool.SharedInstance.GetPooledObject();
+        if (bullet != null)
+        {
+            bullet.transform.position = playerb.transform.position;
+            bullet.transform.rotation = playerb.transform.rotation;
+            if (Time.timeScale != 0)
+            {
+                bullet.SetActive(true);
+            }
+        }
+    }
+    public void Die()
+    {
+        gameObject.SetActive(false);
+        //cambia de escena o repones la misma SceneManager.LoadScene("cualquiercosa", LoadSceneMode.Single);
+        //añadir pantallita de muerte
+        Debug.Log("me mueri");
     }
 }
