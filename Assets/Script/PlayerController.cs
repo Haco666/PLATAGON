@@ -10,11 +10,16 @@ public class PlayerController : MonoBehaviour
     public float inputMovimiento;
     public bool IsGrounded;
     public GroundedController gc;
+    public PlayerStars PlayerStars;
+    public float Life;
     // Start is called before the first frame update
 
     void Start()
     {
         playerb = GetComponent<Rigidbody2D>();
+        Life = PlayerStars.MaxLife;
+        speed = PlayerStars.Speed;
+        speedJump = PlayerStars.SpeedJump;
     }
 
     // Update is called once per frame
@@ -22,6 +27,14 @@ public class PlayerController : MonoBehaviour
     {
         IsGrounded = gc.IsGrounded();
         ProcesarMovimiento();
+        if (Life <= 0)
+        {
+            Die();
+        }
+        if (Input.GetMouseButtonDown(0))
+        {
+            Shoot();
+        }
     }
     void ProcesarMovimiento()
     {
