@@ -4,7 +4,7 @@ using UnityEngine;
 
 [CreateAssetMenu]
 
-public class PlayerStars : ScriptableObject
+public class PlayerStats : ScriptableObject
 {
    public float MaxLife;
    public int Damage;

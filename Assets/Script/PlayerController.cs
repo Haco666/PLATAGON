@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     public float inputMovimiento;
     public bool IsGrounded;
     public GroundedController gc;
-    public PlayerStars playerStats;
+    public PlayerStats playerStats;
     public float Life;
     public float speed; // declaramos la velocidad
     public float speedJump; // velocidad salto
@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
         {
             Die();
         }
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(1))
         {
             Shoot();
         }
