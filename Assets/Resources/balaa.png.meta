@@ -1,0 +1,356 @@
+fileFormatVersion: 2
+guid: f7b12e4f5a5c6304c90289b7f1e8c190
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 247
+        width: 88
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca6397dda5abda40a31c3b4a1428d03
+      internalID: -1315216137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 247
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a26cde5ce6cc34d9cb5a09005891ca
+      internalID: -1491124430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 141
+        width: 591
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c25a1923227c1134283cdd0526f77a4e
+      internalID: -708343210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 240
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed83b807f38ebad4a8ca96ccfbf0cfa9
+      internalID: 1299600476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 241
+        width: 125
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0550da1df1917184ebefda1161e8077e
+      internalID: 773494607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 140
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b274c6c46f26e46aa369fcfde3f430
+      internalID: -631618818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 140
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e10c6aef6f2bf4aaaff930b5ff66a9
+      internalID: 180479395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 140
+        width: 137
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd57d2ab236a184b9c016732579528d
+      internalID: -250545338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 131
+        width: 54
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5dbe665d869b434dab714002a9fb9f1
+      internalID: -461806376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 133
+        width: 158
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3e078d1dd1dc9442ba1622da4431808
+      internalID: 1284131746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 116
+        width: 114
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf387e5cc5034c419d578a1a8e31874
+      internalID: -1650854977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_0: -1315216137
+      creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_1: -1491124430
+      creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_10: -1650854977
+      creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_2: -708343210
+      creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_3: 1299600476
+      creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_4: 773494607
+      creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_5: -631618818
+      creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_6: 180479395
+      creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_7: -250545338
+      creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_8: -461806376
+      creame_un_bala_en_movimiento_horizontal_en_pixel__1_-removebg-preview_9: 1284131746
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
