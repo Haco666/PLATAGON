@@ -18,7 +18,7 @@ public class GroundedController : MonoBehaviour
     public bool IsGrounded()
     {
         Debug.DrawRay(transform.position, -Vector3.up, Color.yellow); // dibuja el rayo
-        return Physics2D.Raycast(transform.position, -Vector3.up, distToGround + 0.1f, layerMask);
+        return Physics2D.Raycast(transform.position, -Vector3.up, distToGround + 2f, layerMask);
     }
     void FixedUpdate()
     {

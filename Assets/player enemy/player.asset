@@ -15,4 +15,4 @@ MonoBehaviour:
   MaxLife: 100
   Damage: 20
   Speed: 50
-  SpeedJump: 2000
+  SpeedJump: 200

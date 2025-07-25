@@ -5233,12 +5233,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputMovimiento: 1
-  IsGrounded: 1
+  IsGrounded: 0
   gc: {fileID: 1091654262}
   playerStats: {fileID: 11400000, guid: 8ef11870fa032044da958c1de7e12b3d, type: 2}
-  Life: 0
+  Life: 5
   speed: 50
-  speedJump: 20000
+  speedJump: 20
 --- !u!50 &881849120
 Rigidbody2D:
   serializedVersion: 4
@@ -6737,8 +6737,8 @@ GameObject:
   - component: {fileID: 1091654262}
   - component: {fileID: 1091654261}
   m_Layer: 0
-  m_Name: pies
-  m_TagString: Untagged
+  m_Name: PIES
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6751,13 +6751,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1091654259}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
-  m_LocalPosition: {x: 0.0021349012, y: -0.23880027, z: -11.199999}
-  m_LocalScale: {x: 1.0921502, y: 0.14947642, z: 1}
+  m_LocalRotation: {x: 1, y: -0, z: -0, w: 0}
+  m_LocalPosition: {x: -0.30143028, y: -1.1091701, z: -11.200012}
+  m_LocalScale: {x: 1.0921503, y: 0.14947641, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 881849117}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 180}
 --- !u!61 &1091654261
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6790,7 +6790,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.13244522, y: -2.8420608}
+  m_Offset: {x: 0.13244522, y: -2.930422}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6801,7 +6801,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9744451, y: 3.2853532}
+  m_Size: {x: 0.9744451, y: 3.4620757}
   m_EdgeRadius: 0
 --- !u!114 &1091654262
 MonoBehaviour:
@@ -11886,7 +11886,7 @@ Camera:
   far clip plane: 1400
   field of view: 60
   orthographic: 1
-  orthographic size: 43.6504
+  orthographic size: 41.540237
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -11911,7 +11911,7 @@ Transform:
   m_GameObject: {fileID: 1808048324}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -198.90019, y: -222, z: 647}
+  m_LocalPosition: {x: -178.7, y: -207.7, z: 647}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
