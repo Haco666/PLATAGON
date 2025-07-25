@@ -12,7 +12,7 @@ public class BarraVida : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
     }
-    
+
 
     void Update()
     {
