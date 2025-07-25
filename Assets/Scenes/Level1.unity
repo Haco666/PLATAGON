@@ -1123,8 +1123,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 195703347}
+  - component: {fileID: 195703350}
   - component: {fileID: 195703348}
-  m_Layer: 0
+  - component: {fileID: 195703349}
+  m_Layer: 7
   m_Name: aura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1191,6 +1193,32 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.35005176, y: 0.32208115}
   m_EdgeRadius: 0
+--- !u!114 &195703349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195703346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef43940a9f64746458d98c559709d9cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyStats: {fileID: 11400000, guid: 1e50f8f0d3f67c741b796a7aff1b11e5, type: 2}
+--- !u!114 &195703350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 195703346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef43940a9f64746458d98c559709d9cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyStats: {fileID: 11400000, guid: 1e50f8f0d3f67c741b796a7aff1b11e5, type: 2}
 --- !u!1 &219294666
 GameObject:
   m_ObjectHideFlags: 0
@@ -2733,8 +2761,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 386666848}
+  - component: {fileID: 386666850}
   - component: {fileID: 386666849}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: aura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2801,6 +2830,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3817603, y: 0.27485663}
   m_EdgeRadius: 0
+--- !u!114 &386666850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 386666847}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef43940a9f64746458d98c559709d9cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyStats: {fileID: 11400000, guid: 1e50f8f0d3f67c741b796a7aff1b11e5, type: 2}
 --- !u!1 &414145322
 GameObject:
   m_ObjectHideFlags: 0
@@ -5194,7 +5236,7 @@ MonoBehaviour:
   IsGrounded: 1
   gc: {fileID: 1091654262}
   playerStats: {fileID: 11400000, guid: 8ef11870fa032044da958c1de7e12b3d, type: 2}
-  Life: 20
+  Life: 0
   speed: 50
   speedJump: 20000
 --- !u!50 &881849120
@@ -10074,8 +10116,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1606919415}
+  - component: {fileID: 1606919417}
   - component: {fileID: 1606919416}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: aura
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10142,6 +10185,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3496771, y: 0.23937297}
   m_EdgeRadius: 0
+--- !u!114 &1606919417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1606919414}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef43940a9f64746458d98c559709d9cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyStats: {fileID: 11400000, guid: 1e50f8f0d3f67c741b796a7aff1b11e5, type: 2}
 --- !u!1 &1611503246
 GameObject:
   m_ObjectHideFlags: 0
