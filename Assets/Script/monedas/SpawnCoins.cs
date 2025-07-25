@@ -18,9 +18,9 @@ public class SpawnCoins : MonoBehaviour
         GameObject coin = coinPool.GetComponent<CoinPool>().GetPooledObject();
         if (coin != null)
         {
-            //alta pantalla -11.14 1.16 y baja pantalla 21.57 -3.85
-            x = Random.Range(-11.14f, 21.57f);
-            y = Random.Range(1.16f, -3.85f);
+            //alta pantalla 160.8 60.2 y baja pantalla 360.8 11.7
+            x = Random.Range(160.8f, 60.2f);
+            y = Random.Range(360.8f, -3.85f);
             coin.transform.position = new Vector3(x, y, 0);
             coin.SetActive(true);
         }
