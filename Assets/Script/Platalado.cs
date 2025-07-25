@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlataCae : MonoBehaviour
+public class PlataLado : MonoBehaviour
 {
     public float speed = 10f;
     public Rigidbody2D rb;
@@ -22,11 +22,11 @@ public class PlataCae : MonoBehaviour
         Vector2 point = currentPoint.position - transform.position;
         if (currentPoint == puntoA.transform)
         {
-            rb.velocity = new Vector2(0, speed);// x, y, z
+            rb.velocity = new Vector2(speed, 0);// x, y, z
         }
         else
         {
-            rb.velocity = new Vector2(0, -speed);
+            rb.velocity = new Vector2(-speed, 0);
         }
         if (Vector2.Distance(transform.position, currentPoint.position) < 0.9f && currentPoint == puntoB.transform)
         {
