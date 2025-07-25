@@ -1177,7 +1177,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.011787146, y: -0.06332207}
@@ -2814,7 +2814,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.0025337636, y: -0.06781653}
@@ -5193,7 +5193,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: ff92939a627188a43b28b96c0fa7f6e8, type: 3}
+  m_Sprite: {fileID: 1177933638, guid: 2c28b5b719a1a5a41ab72ad20db9ec6e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5213,8 +5213,8 @@ Transform:
   m_GameObject: {fileID: 881849114}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -197.4, y: -228.4, z: 702}
-  m_LocalScale: {x: 58.779434, y: 56.5326, z: 1}
+  m_LocalPosition: {x: -210.6764, y: -233.0963, z: 702}
+  m_LocalScale: {x: 14.675365, y: 13.797429, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1091654260}
@@ -5298,18 +5298,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.0035722256, y: 0.0640675}
+  m_Offset: {x: -0.055317163, y: 0.30114967}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.54, y: 0.63}
+    oldSize: {x: 1.38, y: 1.83}
     newSize: {x: 1, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2749949, y: 0.44243214}
+  m_Size: {x: 1.5407469, y: 1.42463}
   m_EdgeRadius: 0
 --- !u!1 &910736821
 GameObject:
@@ -6738,7 +6738,7 @@ GameObject:
   - component: {fileID: 1091654261}
   m_Layer: 0
   m_Name: pies
-  m_TagString: Player
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6790,7 +6790,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0048872977, y: 0.018564448}
+  m_Offset: {x: 0.13244522, y: -2.8420608}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -6801,7 +6801,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.2528319, y: 0.9628711}
+  m_Size: {x: 0.9744451, y: 3.2853532}
   m_EdgeRadius: 0
 --- !u!114 &1091654262
 MonoBehaviour:
@@ -7633,7 +7633,7 @@ GameObject:
   - component: {fileID: 1266644057}
   - component: {fileID: 1266644056}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: balapicina
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10169,7 +10169,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.007068664, y: -0.067997366}
@@ -11386,10 +11386,10 @@ MonoBehaviour:
   m_Type: 3
   m_PreserveAspect: 0
   m_FillCenter: 1
-  m_FillMethod: 3
+  m_FillMethod: 0
   m_FillAmount: 1
   m_FillClockwise: 1
-  m_FillOrigin: 3
+  m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1767644549

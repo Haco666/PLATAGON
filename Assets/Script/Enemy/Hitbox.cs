@@ -5,6 +5,7 @@ using UnityEngine;
 public class Hitbox : MonoBehaviour
 {
     public EnemyStats enemyStats;
+
     public void OnTriggerEnter2D(Collider2D collider)
     {
         if (collider.CompareTag("Player"))

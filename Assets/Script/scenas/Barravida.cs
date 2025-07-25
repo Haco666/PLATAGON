@@ -12,6 +12,8 @@ public class BarraVida : MonoBehaviour
     {
         player = GameObject.FindGameObjectWithTag("Player");
     }
+    
+
     void Update()
     {
         barraDeVida.fillAmount = player.GetComponent<PlayerController>().Life / playerStats.MaxLife;

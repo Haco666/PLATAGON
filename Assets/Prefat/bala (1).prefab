@@ -101,7 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rbBullet: {fileID: 0}
   direccion: {x: 0, y: 0}
-  force: 2
+  force: 200
   maxDistance: 1000000
   Damage: 4
   Player: {fileID: 476968537711617172}
