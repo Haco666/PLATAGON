@@ -3029,7 +3029,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputMovimiento: 1
   IsGrounded: 0
-  gc: {fileID: 859368388}
+  gc: {fileID: 0}
   playerStats: {fileID: 11400000, guid: 8ef11870fa032044da958c1de7e12b3d, type: 2}
   Life: 50
   speed: 20
@@ -3994,7 +3994,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 859368390}
-  - component: {fileID: 859368388}
+  - component: {fileID: 859368391}
   - component: {fileID: 859368389}
   m_Layer: 0
   m_Name: pies
@@ -4003,22 +4003,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &859368388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 859368387}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 470ca73bbc14fcd4781752436335b0f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  distToGround: 0
-  helper: 0
-  layer: 0
-  layerMask: 0
 --- !u!61 &859368389
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4079,6 +4063,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 576839306}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &859368391
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859368387}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 470ca73bbc14fcd4781752436335b0f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distToGround: 0
+  helper: 0
+  layer: 0
+  layerMask: 0
 --- !u!1 &859615690
 GameObject:
   m_ObjectHideFlags: 0
