@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     public float Life;
     public float speed; // declaramos la velocidad
     public float speedJump; // velocidad salto
+    public Animator anim; // para las animaciones
+
     void Start()
     {
         playerb = GetComponent<Rigidbody2D>();
@@ -38,7 +40,7 @@ public class PlayerController : MonoBehaviour
     {
         inputMovimiento = Input.GetAxis("Horizontal");
         playerb.velocity = new Vector2(inputMovimiento * speed, playerb.velocity.y);
-        //aqui se añaden animaciones anim.SetBool("Walking", true);
+        anim.SetBool("Walking", true);
     }
 
     private void FixedUpdate()
