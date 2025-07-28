@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7101683741e72c24985e65b29027cec4, type: 3}
   m_Name: player
   m_EditorClassIdentifier: 
-  MaxLife: 100
+  MaxLife: 200
   Damage: 20
   Speed: 50
   SpeedJump: 200
