@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
     {
         inputMovimiento = Input.GetAxis("Horizontal");
         playerb.velocity = new Vector2(inputMovimiento * speed, playerb.velocity.y);
-        anim.SetBool("Walking", true);
+        anim.SetBool("Caminar", true);
     }
 
     private void FixedUpdate()
