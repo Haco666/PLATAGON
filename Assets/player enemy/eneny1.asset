@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: eneny1
   m_EditorClassIdentifier: 
   MaxLife: 20
-  Damage: 10
+  Damage: 5
   Speed: 25
